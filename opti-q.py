@@ -36,8 +36,8 @@ def app():
     st.markdown("<h2 style='text-align: center;'>Your natural language query bot for your ODP Snowflake database</h1>", unsafe_allow_html=True)
 
     # Example of fully qualified table names
-    table_names = ["PROD_20_WEB.PUBLIC.PRODUCTS",
-                "PROD_1252_WEB.PUBLIC.PRODUCTS", "PROD_1227_WEB.PUBLIC.PRODUCTS"]
+    table_names = ["PROD_1_WEB.PUBLIC.PRODUCTS",
+                "PROD_2_WEB.PUBLIC.PRODUCTS", "PROD_3_WEB.PUBLIC.PRODUCTS"]
 
     # Dropdown to select a table
     selected_table = st.selectbox("Select a table",

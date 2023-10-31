@@ -5,7 +5,8 @@ https://quickstarts.snowflake.com/guide/frosty_llm_chatbot_on_streamlit_snowflak
 
 import streamlit as st
 
-QUALIFIED_TABLE_NAME = "PROD_20_WEB.PUBLIC.PRODUCTS"
+# Example of fully qualified table name
+QUALIFIED_TABLE_NAME = "PROD_1_WEB.PUBLIC.PRODUCTS"
 TABLE_DESCRIPTION = """
 This table contains information about products.
 """
